@@ -1,14 +1,28 @@
 import React from "react"
-import Layout from "@/layout/Layout"
-import Button from "@/components/Button"
+import ChakraLayout from "@/layout/ChakraLayout"
+import MyButton from "@/components/MyButton"
+import { Box, Heading } from "@chakra-ui/react"
 
-const Home: React.FC = () => {
+export interface IndexProps {
+  cookies?: string
+}
+
+const Index: React.FC<IndexProps> = ({ cookies }) => {
   return (
-    <Layout title="Next App">
-      <h1>Hello, world!</h1>
-      <Button />
-    </Layout>
+    <ChakraLayout cookies={cookies}>
+      <Box textAlign="center" fontSize="xl">
+        <Heading
+          as="h1"
+          textColor="teal.400"
+          _hover={{ textColor: "teal.600" }}
+          m="2"
+        >
+          Hello, world!
+        </Heading>
+        <MyButton />
+      </Box>
+    </ChakraLayout>
   )
 }
 
-export default Home
+export default Index

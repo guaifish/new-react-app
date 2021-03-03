@@ -8,6 +8,7 @@
       "@/pages/*": ["./pages/*"],
       "@/public/*": ["./public/*"],
       "@/styles/*": ["./styles/*"],
+      "@/theme/*": ["./theme/*"],
       "@/utils/*": ["./utils/*"],
     },
     "target": "es5",
