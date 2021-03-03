@@ -1,12 +1,12 @@
-import React from 'react'
-import Head from 'next/head'
+import React from "react"
+import Head from "next/head"
 
 export interface LayoutProps {
   children?: React.ReactNode
   title?: string
 }
 
-const Layout: React.FC<LayoutProps> = ({ children, title = 'title' }) => (
+const Layout: React.FC<LayoutProps> = ({ children, title = "title" }) => (
   <div>
     <Head>
       <title>{title}</title>

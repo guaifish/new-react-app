@@ -1,6 +1,6 @@
-import React from 'react'
-import Layout from '@/layout/Layout'
-import Button from '@/components/Button'
+import React from "react"
+import Layout from "@/layout/Layout"
+import Button from "@/components/Button"
 
 const Home: React.FC = () => {
   return (

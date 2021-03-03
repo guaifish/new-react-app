@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react"
 
-const Hello = () => {
+const Button = () => {
   return <button>Button</button>
 }
 
-export default Hello
+export default Button
