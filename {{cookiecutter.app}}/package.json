@@ -1,5 +1,5 @@
 {
-  "name": "chakra-demo",
+  "name": "{{cookiecutter.app}}",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
