@@ -1,7 +1,5 @@
-# Cookiecutter Template for Minimal React App
-
-download template
+# Cookiecutter Template for Nextjs App
 
 ```bash
-cookiecutter gh:guaifish/new-react-app -c minimal
+cookiecutter gh:guaifish/new-react-app -c nextjs
 ```
