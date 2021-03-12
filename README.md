@@ -1,5 +1,9 @@
 # Cookiecutter Template for Nextjs App
 
-```bash
-cookiecutter gh:guaifish/new-react-app -c nextjs
+```shell
+$ cookiecutter gh:guaifish/new-react-app -c nextjs
+$ app [next-app]: demo
+$ cd demo
+$ git init
+$ npm i
 ```
