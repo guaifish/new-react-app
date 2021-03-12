@@ -14,7 +14,6 @@ const Index: React.FC<IndexProps> = ({ cookies }) => {
         <Heading
           as="h1"
           textColor="teal.400"
-          _hover={{ textColor: "teal.600" }}
           m="2"
         >
           Hello, world!
